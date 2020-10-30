@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Lobster&family=Roboto+Mono:wght@200;600&family=Turret+Road&display=swap');
+/* GENERAL */
+html { scroll-behavior: smooth; }
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono';
+    color: #35111cdc;
+    letter-spacing: 5px;
+}
+
+h1 {
+    font-family: 'Lobster';
+    font-size: 22mm;
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+
+h1:hover {
+    color:#af637a8c;
+}
+
+
+/* NAV */
+nav a {
+    text-decoration:none;
+    color:inherit;
+}
+
+nav li{
+    display:inline-block;
+}
+
+nav li:hover{
+    color:#af637a8c;
+}
+
+/* ABOUT */
+div.centrando {
+    text-align: center;
+}
+
+.space {
+    margin-left: 70px;
+    font-size: 5mm;
+    white-space: pre;
+}
+
+/* PORTFOLIO */
+div.margen {
+    margin-right: 10mm ;
+}
+
+div.right {
+    float: right;
+}
+
+div.content {
+    width: 300px;
+    margin: 0 auto 0 auto;
+    padding: 5px;
+    background-color: #ffffff;
+    color: #fff;
+    }
+
+div.content img { max-width: 100%; }
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+}
+
+/* CONTACTO */
+/* FOOTER */
+.centrame-esto {
+    text-align: center;
+}
